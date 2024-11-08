@@ -8,11 +8,11 @@ The website will include the following:
 - an index page
 - a readme file
 - an image directory and images
-- some pages 
+- some recipe pages 
 
 The skills demonstrated in this repository will cover:
 - basic git usage
 - creating html pages
 - using images
 - using links
-- 
+- creating ordered and unordered lists
