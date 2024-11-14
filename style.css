@@ -27,17 +27,45 @@ li {
     margin: 5px; 
    
 }
+.center {
+    text-align: center;
+}
 
-span li {
+.center img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/*class for list items on index page only to display as menu horizontally */
+.menu li {
     display: inline-block;
+    padding-top: auto;
+    padding-bottom: auto;
     padding-left: 0px;
     margin-left: 0px;
+    font-size: 28px;
+    font-weight: 600;
+    width: 24%;
 
 }
 
 a {
-    color:hsl(237, 65%, 52%);
+    color:hsl(237, 65%, 42%);
     text-decoration: none;
+}
+
+li :hover {
+    color: hsl(314, 65%, 52%);
+    transition:450ms;
+    font-size: 30px;
+    margin-top: 0px;
+
+}
+
+:active {
+    color: hsl(138, 65%, 52%);
+
 }
 
 li:last-of-type {
